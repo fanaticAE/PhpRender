@@ -25,7 +25,7 @@ function renderEndTag($tag){
 }
 
 function renderContentlessTag($tagname, $attributes = null){
-  echo "<".$tagname;
+  echo "<".$tagname." ";
   renderAttributes($attributes); 
   echo "/>"; 
 }
