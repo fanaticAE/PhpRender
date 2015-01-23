@@ -13,8 +13,7 @@ function renderLink($rel, $type, $href, $attributes = null){
   renderContentlessTag("link", $attributes); 
 }
 
-function renderNav($id, $class, $href, $attributes, $innerRender){
-  $attributes = addToAttributes("href", $href, $attributes); 
+function renderNav($id, $class, $attributes, $innerRender){
   renderIdentifiableTag($id, $class, $attributes, $innerRender); 
 }
 
