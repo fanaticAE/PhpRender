@@ -20,7 +20,7 @@ function renderTextarea($id, $class, $name, $attributes, $innerRender){
   renderIdentifiableTag("textarea",$id, $class, $attributes, $innerRender); 
 }
 
-function renderButton($id, $class, $type, $attributes){
+function renderButton($id, $class, $type, $attributes = null, $innerRender = null){
   $attributes = addToAttributes("type",$type,$attributes);
   renderIdentifiableTag("button", $id, $class, $attributes, $innerRender); 
 }
