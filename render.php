@@ -10,7 +10,7 @@ require_once("renderLists.php");
 require_once("renderForms.php"); 
 require_once("renderMeta.php");
 require_once("renderProgramming.php");
-
+require_once("renderTable.php"); 
 
 
 ?> 
